@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Sherlock Test Extension",
+    "description": "Base Level Extension",
+    "version": "1.0",
+    "action": {
+        "default_popup": "hello.html",
+        "default_icon": "icon.jpg"
+    },
+    "icons": {
+        "16": "icon.jpg",
+        "48": "icon.jpg"
+    },
+    "permissions": [
+        "contextMenus"
+    ],
+    "background": {
+        "service_worker": "right-click-menu.js"
+    }
+}
